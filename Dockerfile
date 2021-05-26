@@ -1,7 +1,7 @@
-FROM sandy1709/catuserbot:latest
+FROM B-lac/B-lac-2.0-Userbot:latest
 
 #clonning repo 
-RUN git clone https://github.com/sandy1709/catuserbot.git /root/userbot
+RUN git clone https://github.com/B-Lac/B-lac-2.0-Userbot.git /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
