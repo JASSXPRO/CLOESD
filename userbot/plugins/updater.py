@@ -286,7 +286,7 @@ CMD_HELP.update(
         "\n\n•  **Syntax : **`.update deploy`"
         "\n•  **Function :** Deploy your userbot.So even you restart it doesnt go back to previous version"
         "\nThis will triggered deploy always, even no updates."
-        "\n\n•  **Syntax : **`.badcat`"
+        "\n\n•  **Syntax : **`.Blac-2.0`"
         "\n•  **Function :** Shifts from official Blac repo to jisan's repo(for gali commands)"
     }
 )
