@@ -17,11 +17,11 @@
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
+      "value": "5904695"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
+      "value": "876ac15a8bf228d52abe8cbdf2d748c7"
     },
     "STRING_SESSION": {
       "description": "Get this value by running python3 telesetup.py locally or https://replit.com/@BLACJASS/B-Lacuserbot#main.py",
@@ -29,11 +29,11 @@
     },
     "TG_BOT_USERNAME": {
       "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the username of your bot",
-      "value": ""
+      "value": "@OFFICIAL_BLAC_PUBLIC_BOT"
     },
     "TG_BOT_TOKEN": {
       "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
-      "value": ""
+      "value": "1833427889:AAFG-yt0svvvDAQ9J7wlnfvf5q0qqE5o3_k"
     },
     "COMMAND_HAND_LER": {
       "description": "Set this one with only one the symbol to use it before your command to run like . , ' `",
@@ -61,7 +61,7 @@
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "Use either goodcat or badcat .if you need custom deploy then type your git repo link",
+      "description": "Use either Blac or blac-2.0 .if you need custom deploy then type your git repo link",
       "value": "Blac-2.0",
       "required": false
     }
