@@ -1,61 +1,77 @@
-# CatUserbot
-A simple Telegram userbot based on Telethon .
-[![catuserbot logo](https://telegra.ph/file/b7dc845e3a48cde0d7bb1.jpg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fsandy1709%2Fcatuserbot%2Ftree%2Fbugs&template=https%3A%2F%2Fgithub.com%2Fsandy1709%2Fcatuserbot)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fsandy1709%2Fcatuserbot&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://github.com/sandy1709/catuserbot)
-[![CodeFactor](https://www.codefactor.io/repository/github/sandy1709/catuserbot/badge?&style=flat-square)](https://www.codefactor.io/repository/github/sandy1709/catuserbot)
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green?&style=flat-square)](https://GitHub.com/sandy1709/catuserbot/graphs/commit-activity) 
-![Repo Size](https://img.shields.io/github/repo-size/sandy1709/catuserbot?&style=flat-square&logo=github)
-[![GitHub license](https://img.shields.io/github/license/sandy1709/catuserbot?&style=flat-square&logo=github)](https://github.com/sandy1709/catuserbot/blob/master/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/sandy1709/catuserbot?&style=flat-square&logo=github)](https://github.com/sandy1709/catuserbot/issues)
-[![PR Open](https://img.shields.io/github/issues-pr/sandy1709/catuserbot?&style=flat-square&logo=github)](https://github.com/sandy1709/catuserbot/pulls)
-[![PR Closed](https://img.shields.io/github/issues-pr-closed/sandy1709/catuserbot?&style=flat-square&logo=github)](https://github.com/sandy1709/catuserbot/pulls?q=is:closed)
-[![GitHub contributors](https://img.shields.io/github/contributors/sandy1709/catuserbot?&style=flat-square&logo=github)](https://GitHub.com/sandy1709/catuserbot/graphs/contributors/)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/sandy1709/catuserbot?&style=flat-square&logo=github)](https://github.com/sandy1709/catuserbot/graphs/commit-activity)
-[![GitHub forks](https://img.shields.io/github/forks/sandy1709/catuserbot?&style=flat-square&logo=github)](https://github.com/sandy1709/catuserbot/fork)
-[![GitHub stars](https://img.shields.io/github/stars/sandy1709/catuserbot?&style=flat-square&logo=github)](https://github.com/sandy1709/catuserbot/stargazers)
+
+ ##     #         ⚡𝐁𝐋𝐀𝐂 2.0 𝐔𝐒𝐄𝐑𝐁𝐎𝐓⚡ 
 
 
 
-## How to deploy catuserbot
-### Heroku Deploy
-  - [Source Code](https://github.com/Mr-confused/catpack)
-  - [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FMr-confused%2Fcatpack&template=https%3A%2F%2Fgithub.com%2FMr-confused%2Fcatpack)
 
-### Self host
-  - [check this](https://catuserbot.gitbook.io/catuserbot/tutorial/self-host)
-  
-## Support
-   <a href="https://t.me/catuserbot17"><img src="https://img.shields.io/badge/Channel%20Support%3F-yes-green?&style=flat-square?&logo=telegram" width=220px></a></p>
-   <a href="https://t.me/catuserbot_support"><img src="https://img.shields.io/badge/Group%20Support%3F-yes-green?&style=flat-square?&logo=telegram" width=220px></a></p>
-   
-## Inspiration
-   - [X-tra-Telegram](https://github.com/Dark-Princ3/X-tra-Telegram)
-   - [Uniborg](https://github.com/SpEcHiDe/UniBorg) & [Uniborg fork](https://github.com/ravana69/PornHub)
-   - [Nana-Remix](https://github.com/pokurt/Nana-Remix)
-   - [Userge-X](https://github.com/code-rgb/USERGE-X/)
-   
-## Disclaimer
 
+
+<p align="center"><a href="https://"><img src="https://telegra.ph/file/8c771537e52046019c5dc.jpg"></a></p> 
+</p>
+<h1></h1>
+              🔥 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐏𝐘𝐓𝐇𝐎𝐍 🔥 .
+<br>      
+
+
+#       ⚜️ [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/) ⚜️
+
+
+
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)]( https://github.com/B-Lac/BLAC-2.0-USERBOT/ )
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg?&style=flat-square)]( https://github.com/B-Lac/BLAC-2.0-USERBOT/#copyright--license)
+[![Stars](https://img.shields.io/github/stars/KeinShin/Black-Lightning?&style=flat-square)]( https://github.com/B-Lac/BLAC-2.0-USERBOT//stargazers)
+[![Forks](https://img.shields.io/github/forks/KeinShin/Black-Lightning?&style=flat-square)]( https://github.com/B-Lac/BLAC-2.0-USERBOT//network/members)
+[![Issues Open](https://img.shields.io/github/issues/KeinShin/Black-Lightning?&style=flat-square)]( https://github.com/B-Lac/BLAC-2.0-USERBOT//issues)
+[![Issues Closed](https://img.shields.io/github/issues-closed/KeinShin/Black-Lightning?&style=flat-square)]( https://github.com/KeinShin/Black-Lightning/issues?q=is:closed)
+[![PR Open](https://img.shields.io/github/issues-pr/KeinShin/Black-Lightning?&style=flat-square)]( https://github.com/B-Lac/BLAC-2.0-USERBOT//pulls)
+[![PR Closed](https://img.shields.io/github/issues-pr-closed/KeinShin/Black-Lightning?&style=flat-square)]( https://github.com/B-Lac/BLAC-2.0-USERBOT//pulls?q=is:closed)
+![Repo Size](https://img.shields.io/github/https://github.com/B-Lac/BLAC-2.0-USERBOT/?style=flat-square)
+<br>
+                         
+
+# ＬＯＧＯ  <p align="center"><a href="https://"><img src="https://telegra.ph/file/8c771537e52046019c5dc.jpg"></a></p> 
+</p>
+
+
+
+## Note-: 
+
+This is a userbot made for telegram. I made this userbot with help of all other userbots available in telegram. All credits goes to its Respective Owners.......
+
+
+#       <h4>⚜️ ＤＥＰＬＯＹ ＴＯ ＨＥＲＯＫＵ ⚜️</h4>
+
+
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/B-Lac/Blac-2.0/)
+
+
+# <h4>⚜️ ＳＴＲＩＮＧ ＳＥＳＳＩＯＮ ⚜️</h4>
+
+
+[![Run on Repl.it](https://repl.it/badge/github/KeinShin/Black-Lightning&theme=midnight-purple)](https://replit.com/@BLACJASS/B-Lacuserbot#main.py)
+
+
+# The Normal Way
+
+Simply clone the repository and run the main file:
+```sh
+git clone https://github.com/B-Lac/BLAC-2.0-USERBOT.git
+cd Blac 2.0 userbot 
+virtualenv -p /usr/bin/python3 venv
+. ./venv/bin/activate
+pip install -r requirements.txt
+# <Create local_config.py with variables as given below>
+python3 -m Blac-2.0-userbot
 ```
-              YOU ARE FOREWARNED
-Your Telegram account may get banned.   
-Catuserbot or we are not responsible for your account, 
-This bot is intended for the purpose of having fun with some fun commands 
-and group management with some helpfull commands.
 
-If  you ended up spamming groups, getting reported left and right, 
-and you ended up in being fight with Telegram 
-and at the end Telegram Team deleted your account. DON'T BLAME US.
-
-No personal support will be provided / We won't spoon feed you. 
-If you need help ask in our support group 
-and we or our friends will try to help you.
-
-Thanks for using our bot 😺
+# Mandatory Vars
 ```
+[+] Only two of the environment variables are mandatory.
 
-## Credits
-   - Special thanks to [LonamiWebs](https://github.com/LonamiWebs/Telethon/) for Telethon libraray
-   - To all devs of these [Userbots](https://github.com/sandy1709/catuserbot/tree/bugs#inspiration)
-   - Finally to all [contributors of Catuserbot](https://github.com/sandy1709/catuserbot/graphs/contributors)
+[+] This is because of telethon.errors.rpc_error_list.ApiIdPublishedFloodError
+
+    [-] APP_ID:   You can get this value from https://my.telegram.org
+    [-] API_HASH :   You can get this value from https://my.telegram.org
+    
+[+] The Blac Bot will not work without setting the mandatory vars.
+```
