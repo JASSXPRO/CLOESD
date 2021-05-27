@@ -16,7 +16,7 @@ StartTime = time.time()
 catversion = "2.10.6"
 
 
-CAT_ID = ["1035034432", "551290198"]
+BLAC_ID = ["1497444389", "1881979977"]
 
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
 
