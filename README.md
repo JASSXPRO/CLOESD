@@ -13,8 +13,6 @@
 <br>      
 
 
-#       ⚜️ [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/) ⚜️
-
 
 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)]( https://github.com/B-Lac/BLAC-2.0-USERBOT/ )
