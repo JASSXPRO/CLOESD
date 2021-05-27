@@ -30,8 +30,7 @@ This is a userbot made for telegram. I made this userbot with help of all other 
 #       <h4>⚜️ ＤＥＰＬＯＹ ＴＯ ＨＥＲＯＫＵ ⚜️</h4>
 
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/B-Lac/B-lac-2.0-Userbot)
-
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FB-Lac%2FHEROKU&template=https%3A%2F%2Fgithub.com%2FB-Lac%2FHEROKU)
 
 # <h4>⚜️ ＳＴＲＩＮＧ ＳＥＳＳＩＯＮ ⚜️</h4>
 
