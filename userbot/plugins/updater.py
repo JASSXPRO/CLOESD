@@ -236,7 +236,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
 @bot.on(admin_cmd(outgoing=True, pattern=r"update deploy$"))
 @bot.on(sudo_cmd(pattern="update deploy$", allow_sudo=True))
 async def upstream(event):
-    event = await edit_or_reply(event, "`Pulling the catpack repo wait a sec ....`")
+    event = await edit_or_reply(event, "`Pulling the Blac repo wait a sec ....`")
     off_repo = "https://github.com/Mr-confused/catpack"
     os.chdir("/app")
     catcmd = f"rm -rf .git"
@@ -272,24 +272,6 @@ async def upstream(event):
     await deploy(event, repo, ups_rem, ac_br, txt)
 
 
-@bot.on(admin_cmd(pattern=r"badcat$", outgoing=True))
-@bot.on(sudo_cmd(pattern=r"badcat$", allow_sudo=True))
-async def variable(var):
-    if Config.HEROKU_API_KEY is None:
-        return await edit_delete(
-            var,
-            "Set the required var in heroku to function this normally `HEROKU_API_KEY`.",
-        )
-    if Config.HEROKU_APP_NAME is not None:
-        app = Heroku.app(Config.HEROKU_APP_NAME)
-    else:
-        return await edit_delete(
-            var,
-            "Set the required var in heroku to function this normally `HEROKU_APP_NAME`.",
-        )
-    heroku_var = app.config()
-    await edit_or_reply(var, f"`Changing goodcat to badcat wait for 2-3 minutes.`")
-    heroku_var["UPSTREAM_REPO"] = "https://github.com/Jisan09/catuserbot"
 
 
 CMD_HELP.update(
