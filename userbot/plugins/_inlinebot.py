@@ -7,7 +7,7 @@ import time
 
 from telethon import Button, custom, events
 
-from . import CMD_LIST, catalive
+from . import CMD_LIST, blac alive
 
 CAT_IMG = Config.ALIVE_PIC or None
 BTN_URL_REGEX = re.compile(r"(\[([^\[]+?)\]\<buttonurl:(?:/{0,2})(.+?)(:same)?\>)")
@@ -21,11 +21,11 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
         query = event.text
         hmm = re.compile("secret (.*) (.*)")
         match = re.findall(hmm, query)
-        if query.startswith("**Catuserbot") and event.query.user_id == bot.uid:
+        if query.startswith("**Blac-userbot") and event.query.user_id == bot.uid:
             buttons = [
                 (
                     custom.Button.inline("Stats", data="stats"),
-                    Button.url("Repo", "https://github.com/sandy1709/catuserbot"),
+                    Button.url("Repo", "https://github.com/B-Lac/B-lac-2.0-Userbot"),
                 )
             ]
             if CAT_IMG and CAT_IMG.endswith((".jpg", ".png")):
