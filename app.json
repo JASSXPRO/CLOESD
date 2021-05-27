@@ -52,7 +52,7 @@
     },
     "HEROKU_APP_NAME": {
       "description": "YOUR app name ",
-      "value": "",
+      "value": "blac owner jass",
       "required": false
     },
     "TZ": {
