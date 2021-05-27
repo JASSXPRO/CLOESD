@@ -88,14 +88,14 @@ async def variable(var):
             return await cat.edit("`.set var <ConfigVars-name> <value>`")
         await asyncio.sleep(1.5)
         if variable in heroku_var:
-            await Blac.edit(f"`{variable}` **successfully changed to  ->  **`{value}`")
+            await Blac.edit(f"`{variable}` **Blac -successfully changed to  ->  **`{value}`")
         else:
             await Blac.edit(
-                f"`{variable}`**  successfully added with value`  ->  **{value}`"
+                f"`{variable}`**  Blac -successfully added with value`  ->  **{value}`"
             )
         heroku_var[variable] = value
     elif exe == "del":
-        cat = await edit_or_reply(var, "`Getting information to deleting variable...`")
+        blav = await edit_or_reply(var, "`Getting information to deleting variable...`")
         try:
             variable = var.pattern_match.group(2).split()[0]
         except IndexError:
@@ -104,7 +104,7 @@ async def variable(var):
         if variable not in heroku_var:
             return await cat.edit(f"`{variable}`**  does not exist**")
 
-        await cat.edit(f"`{variable}`  **successfully deleted**")
+        await Blac.edit(f"`{variable}`  **Blac -successfully deleted**")
         del heroku_var[variable]
 
 
