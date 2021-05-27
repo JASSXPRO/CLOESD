@@ -10,7 +10,7 @@ CAT_IMG = Config.ALIVE_PIC
 CUSTOM_ALIVE_TEXT = Config.CUSTOM_ALIVE_TEXT or "✮ MY 𝔹𝕃𝔸ℂ 2.0 𝔹𝕆𝕋 IS RUNNING SUCCESSFULLY ✮"
 EMOJI = Config.CUSTOM_ALIVE_EMOJI or "  ✥ " 
 
-file1 = "https://telegra.ph/file/8002a948622a0c8618e38.jpg
+file1 = "https://telegra.ph/file/8002a948622a0c8618e38.jpg"
 
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))
 @bot.on(sudo_cmd(pattern="alive$", allow_sudo=True))
