@@ -24,7 +24,7 @@
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "Get this value by running python3 telesetup.py locally or https://generatestringsession.sandeep1709.repl.run",
+      "description": "Get this value by running python3 telesetup.py locally or https://replit.com/@BLACJASS/B-Lacuserbot#main.py",
       "value": ""
     },
     "TG_BOT_USERNAME": {
