@@ -16,10 +16,10 @@ heroku_api = "https://api.heroku.com"
 
 UPSTREAM_REPO_BRANCH = Config.UPSTREAM_REPO_BRANCH
 
-if Config.UPSTREAM_REPO == "goodcat":
-    UPSTREAM_REPO_URL = "https://github.com/sandy1709/catuserbot"
+if Config.UPSTREAM_REPO == blac-2.0":
+    UPSTREAM_REPO_URL = "https://github.com/B-Lac/B-lac-2.0-Userbot"
 elif Config.UPSTREAM_REPO == "badcat":
-    UPSTREAM_REPO_URL = "https://github.com/Jisan09/catuserbot"
+    UPSTREAM_REPO_URL = "https://github.com/B-Lac/B-lac-2.0-Userbot"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 
@@ -162,14 +162,14 @@ async def upstream(event):
     # Special case for deploy
     if changelog == "" and not force_update:
         await event.edit(
-            "\n`CATUSERBOT is`  **up-to-date**  `with`  "
+            "\n`BLAC-2.0 USERBOT is`  **up-to-date**  `with`  "
             f"**{UPSTREAM_REPO_BRANCH}**\n"
         )
         return repo.__del__()
     if conf == "" and not force_update:
         await print_changelogs(event, ac_br, changelog)
         await event.delete()
-        return await event.respond("do `.update deploy` to update the catuserbot")
+        return await event.respond("do `.update deploy` to update the Blac-2.0")
 
     if force_update:
         await event.edit(
@@ -237,7 +237,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
 @bot.on(sudo_cmd(pattern="update deploy$", allow_sudo=True))
 async def upstream(event):
     event = await edit_or_reply(event, "`Pulling the Blac repo wait a sec ....`")
-    off_repo = "https://github.com/Mr-confused/catpack"
+    off_repo = "https://github.com/Mr-confused/catpac k"
     os.chdir("/app")
     catcmd = f"rm -rf .git"
     try:
@@ -287,6 +287,6 @@ CMD_HELP.update(
         "\n•  **Function :** Deploy your userbot.So even you restart it doesnt go back to previous version"
         "\nThis will triggered deploy always, even no updates."
         "\n\n•  **Syntax : **`.badcat`"
-        "\n•  **Function :** Shifts from official cat repo to jisan's repo(for gali commands)"
+        "\n•  **Function :** Shifts from official Blac repo to jisan's repo(for gali commands)"
     }
 )
