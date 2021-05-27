@@ -20,30 +20,25 @@ async def amireallyalive(alive):
     reply_to_id = await reply_id(alive)
     uptime = await get_readable_time((time.time() - StartTime))
     _, check_sgnirts = check_data_base_heal_th()
-    if CAT_IMG:
-        cat_caption = f"{CUSTOM_ALIVE_TEXT}\n\n"
-        cat_caption += f"{EMOJI} Database : {check_sgnirts}\n"
-        cat_caption += f"{EMOJI} Telethon version : {version.version}\n"
-        cat_caption += f"{EMOJI} B-lac Version : {blacversion}\n"
-        cat_caption += f"{EMOJI} Python Version : {python_version()}\n"
-        cat_caption += f"{EMOJI} Uptime : {uptime}\n"
-        cat_caption += f"{EMOJI} Master: {mention}\n"
-        await alive.client.send_file(
-            alive.chat_id, CAT_IMG, caption=blac_caption, reply_to=reply_to_id
-        )
-        await alive.delete()
-    else:
-        await edit_or_reply(
-            alive,
-            f"{CUSTOM_ALIVE_TEXT}\n\n"
-            f"{EMOJI} Database : {check_sgnirts}\n"
-            f"{EMOJI} Telethon Version : {version.version}\n"
-            f"{EMOJI} Blac Version : {catversion}\n"
-            f"{EMOJI} Python Version : {python_version()}\n"
-            f"{EMOJI} Uptime : {uptime}\n"
-            f"{EMOJI} Master: {mention}\n",
-        )
-
+    pm_caption = "**𝔹𝕃𝔸ℂ 2.0 𝕀𝕊 𝕆ℕ𝕃𝕀ℕ𝔼**\n\n"
+    
+    pm_caption += f"𝔹𝕃𝔸ℂ 2.0🧿: {Blacversion}\n"
+    
+    pm_caption += "🔨𝕋𝔼𝕃𝔼𝕋ℍ𝕆ℕ🔨: 1.19.0 \n"
+    
+    pm_caption += f"🙋$ᑌᗪO🙋: {sudou}\n"
+    
+    pm_caption += "🔗ℂℍ𝔸ℕℕ𝔼𝕃🔗: [𝕁𝕆𝕀ℕ](https://t.me/BLACUSERBOT_SUPPORT1)\n"
+    
+    pm_caption += "🛠️ℂℝ𝔼𝔸𝕋𝕆ℝ🛠️: [ℕ𝕆𝕆𝔹 ℍ𝔼ℝ𝔼](https://t.me/ERROR_404_USER_NOT_FOUNDED)\n\n"
+    
+    pm_caption += "👑𝔹𝕃𝔸ℂ 𝔾𝔸ℕ𝔾 𝕆𝕎ℕ𝔼ℝ👑: [𝕁𝔸𝕊𝕊𝔸 𝕁𝔸𝕋𝕋](https://t.me/JATTGAMINGYT11)\n\n"
+    
+    pm_caption += "    [🔸ᖇEᑭO🔸](https://github.com/B-Lac/BLAC-2.0-USERBOT) 🔹 [📜𝕃𝕀ℂ𝔼ℕ𝕊𝔼📜](https://github.com/B-Lac/BLAC-2.0-USERBOT/blob/master/LICENSE)\n"
+    
+    pm_caption += f"➾ 𝕄𝕐 𝕄𝔸𝕊𝕋𝔼ℝ ❤️ ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n\n"
+    pm_caption += (
+        "[𝔹 𝕃𝔸ℂ 𝔹𝕆𝕋 𝕆ℕ 𝔽𝕀ℝ𝔼  ](https://t.me/BLACUSERBOT_SUPPORT1)'
 
 @bot.on(admin_cmd(outgoing=True, pattern="ialive$"))
 @bot.on(sudo_cmd(pattern="ialive$", allow_sudo=True))
@@ -52,12 +47,7 @@ async def amireallyalive(alive):
         return
     tgbotusername = Config.TG_BOT_USERNAME
     reply_to_id = await reply_id(alive)
-    cat_caption = f"Blac is Up and Running\n"
-    cat_caption += f"  -Telethon version : {version.version}\n"
-    cat_caption += f"  -Catuserbot Version : {catversion}\n"
-    cat_caption += f"  -Python Version : {python_version()}\n"
-    cat_caption += f"  -Master: {mention}\n"
-    results = await bot.inline_query(tgbotusername, cat_caption)  # pylint:disable=E0602
+    results = await bot.inline_query(tgbotusername, pm_caption)  # pylint:disable=E0602
     await results[0].click(alive.chat_id, reply_to=reply_to_id, hide_via=True)
     await alive.delete()
 
