@@ -12,17 +12,18 @@
               🔥 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐏𝐘𝐓𝐇𝐎𝐍 🔥 .
 <br>      
 
+#           ⚜️ [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/) ⚜️
 
 
 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)]( https://github.com/B-Lac/BLAC-2.0-USERBOT/ )
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg?&style=flat-square)]( https://github.com/B-Lac/BLAC-2.0-USERBOT/#copyright--license)
-[![Stars](https://img.shields.io/github/stars/KeinShin/Black-Lightning?&style=flat-square)]( https://github.com/B-Lac/BLAC-2.0-USERBOT//stargazers)
-[![Forks](https://img.shields.io/github/forks/KeinShin/Black-Lightning?&style=flat-square)]( https://github.com/B-Lac/BLAC-2.0-USERBOT//network/members)
-[![Issues Open](https://img.shields.io/github/issues/KeinShin/Black-Lightning?&style=flat-square)]( https://github.com/B-Lac/BLAC-2.0-USERBOT//issues)
-[![Issues Closed](https://img.shields.io/github/issues-closed/KeinShin/Black-Lightning?&style=flat-square)]( https://github.com/KeinShin/Black-Lightning/issues?q=is:closed)
-[![PR Open](https://img.shields.io/github/issues-pr/KeinShin/Black-Lightning?&style=flat-square)]( https://github.com/B-Lac/BLAC-2.0-USERBOT//pulls)
-[![PR Closed](https://img.shields.io/github/issues-pr-closed/KeinShin/Black-Lightning?&style=flat-square)]( https://github.com/B-Lac/BLAC-2.0-USERBOT//pulls?q=is:closed)
+[![Stars](https://img.shields.io/github/stars/KeinShin/blac 2.0 userbot ?&style=flat-square)]( https://github.com/B-Lac/BLAC-2.0-USERBOT//stargazers)
+[![Forks](https://img.shields.io/github/forks/KeinShin/blac 2.0 userbot?&style=flat-square)]( https://github.com/B-Lac/BLAC-2.0-USERBOT//network/members)
+[![Issues Open](https://img.shields.io/github/issues/KeinShin/blac 2.0 userbot?&style=flat-square)]( https://github.com/B-Lac/BLAC-2.0-USERBOT//issues)
+[![Issues Closed](https://img.shields.io/github/issues-closed/KeinShin/blac 2.0 userbot?&style=flat-square)]( https://github.com/KeinShin/Black-Lightning/issues?q=is:closed)
+[![PR Open](https://img.shields.io/github/issues-pr/KeinShin/blac 2.0 userbot?&style=flat-square)]( https://github.com/B-Lac/BLAC-2.0-USERBOT//pulls)
+[![PR Closed](https://img.shields.io/github/issues-pr-closed/KeinShin/blac 2.0 userbot?&style=flat-square)]( https://github.com/B-Lac/BLAC-2.0-USERBOT//pulls?q=is:closed)
 ![Repo Size](https://img.shields.io/github/https://github.com/B-Lac/BLAC-2.0-USERBOT/?style=flat-square)
 <br>
                          
