@@ -1,4 +1,4 @@
-# Heroku manager for your catuserbot
+# Heroku manager for your Blac-2.0 userbot
 
 # CC- @refundisillegal\nSyntax:-\n.get var NAME\n.del var NAME\n.set var NAME
 
@@ -44,15 +44,15 @@ async def variable(var):
     exe = var.pattern_match.group(1)
     heroku_var = app.config()
     if exe == "get":
-        cat = await edit_or_reply(var, "`Getting information...`")
+        Blac = await edit_or_reply(var, "`Getting information...`")
         await asyncio.sleep(1.0)
         try:
             variable = var.pattern_match.group(2).split()[0]
             if variable in heroku_var:
-                return await cat.edit(
+                return await Blac.edit(
                     "**ConfigVars**:" f"\n\n`{variable} = {heroku_var[variable]}`\n"
                 )
-            return await cat.edit(
+            return await Blac.edit(
                 "**ConfigVars**:" f"\n\n`Error:\n-> {variable} don't exists`"
             )
         except IndexError:
@@ -62,14 +62,14 @@ async def variable(var):
             with open("configs.json", "r") as fp:
                 result = fp.read()
                 if len(result) >= 4096:
-                    await bot.send_file(
+                    await blac.send_file(
                         var.chat_id,
                         "configs.json",
                         reply_to=var.id,
                         caption="`Output too large, sending it as a file`",
                     )
                 else:
-                    await cat.edit(
+                    await Blac.edit(
                         "`[HEROKU]` ConfigVars:\n\n"
                         "================================"
                         f"\n```{result}```\n"
@@ -88,9 +88,9 @@ async def variable(var):
             return await cat.edit("`.set var <ConfigVars-name> <value>`")
         await asyncio.sleep(1.5)
         if variable in heroku_var:
-            await cat.edit(f"`{variable}` **successfully changed to  ->  **`{value}`")
+            await Blac.edit(f"`{variable}` **successfully changed to  ->  **`{value}`")
         else:
-            await cat.edit(
+            await Blac.edit(
                 f"`{variable}`**  successfully added with value`  ->  **{value}`"
             )
         heroku_var[variable] = value
