@@ -28,17 +28,17 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
                     Button.url("Repo", "https://github.com/B-Lac/B-lac-2.0-Userbot"),
                 )
             ]
-            if CAT_IMG and CAT_IMG.endswith((".jpg", ".png")):
+            if BLAC_IMG and CAT_IMG.endswith((".jpg", ".png")):
                 result = builder.photo(
-                    CAT_IMG,
+                    BALV_IMG,
                     # title="Alive cat",
                     text=query,
                     buttons=buttons,
                 )
-            elif CAT_IMG:
+            elif BALC_IMG:
                 result = builder.document(
                     CAT_IMG,
-                    title="Alive cat",
+                    title="Alive BlAc",
                     text=query,
                     buttons=buttons,
                 )
