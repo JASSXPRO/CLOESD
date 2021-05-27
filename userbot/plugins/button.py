@@ -1,6 +1,6 @@
 #    Copyright (C) 2020  sandeep.n(π.$)
-# button post makker for catuserbot thanks to uniborg for the base
-# by @sandy1709 (@mrconfused)
+# button post makker for Blac-2.0 thanks to uniborg for the base
+# by @JATTGAMINGYT11 (@mrconfused)
 import os
 import re
 
