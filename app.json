@@ -15,6 +15,10 @@
       "description": "give your name",
       "value": "👿 𝔹𝕃𝔸ℂ 𝔹𝕆𝕋 𝔸𝕃𝕀𝕍𝔼 👿"
     },
+    "ALIVE_PIC": {
+      "description": " Set your alive pic",
+      "value": "https://telegra.ph/file/17783114e68b6ef03c5c5.jpg"
+    },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
       "value": "5904695"
