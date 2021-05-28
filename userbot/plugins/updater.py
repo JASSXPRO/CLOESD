@@ -1,7 +1,7 @@
 import asyncio
 import os
 import sys
-
+from .config import Config
 import heroku3
 import urllib3
 from git import Repo
